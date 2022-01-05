@@ -2,7 +2,7 @@
 Builds a [SteamOS](http://store.steampowered.com/steamos/) [docker](https://www.docker.com/) image directly from Valve repositories. *(for the paranoid.)*
 
 > **[TL;DR]  Requires Docker 1.13 or later.**  From an account with Docker privileges (e.g. root), run the following:
-> ```
+```
 XUSER=<the user account you log into X with>
 export STEAMUSER_UID=$(id -u ${XUSER})
 export STEAMUSER_GID=$(id -g ${XUSER})
@@ -30,7 +30,7 @@ Run "make" (as root) to:
   2. Load all dependencies needed to bootstrap a SteamOS image
   3. Run a `steamos_buildmach` container, producing a SteamOS root file system
   4. Build a `$(SUITE)` SteamOS *(minbase)* base image, where `$(SUITE)` defaults to `brewmaster`
-  4. Build `steambox` image that can actually run the steam launcher
+  5. Build `steambox` image that can actually run the steam launcher
 
 
 ## Makefile Targets

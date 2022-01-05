@@ -1,5 +1,5 @@
 FROM steambox
-MAINTAINER Jereme Corrado "jereme@zoion.net"
+LABEL maintainer="rsharo@users.noreply.github.com"
 
 USER root
 

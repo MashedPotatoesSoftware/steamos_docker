@@ -1,5 +1,5 @@
 FROM steambox_ati:postinstall
-MAINTAINER rsharo "rsharo@users.noreply.github.com"
+LABEL maintainer="rsharo@users.noreply.github.com"
 
 USER steamuser
 WORKDIR /home/steamuser

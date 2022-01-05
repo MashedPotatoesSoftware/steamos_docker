@@ -1,5 +1,5 @@
 FROM brewmaster:latest
-MAINTAINER rsharo "rsharo@users.noreply.github.com"
+LABEL maintainer="rsharo@users.noreply.github.com"
 RUN apt-get update
 RUN apt-get -y dist-upgrade
 RUN apt-get -y install steam-launcher
